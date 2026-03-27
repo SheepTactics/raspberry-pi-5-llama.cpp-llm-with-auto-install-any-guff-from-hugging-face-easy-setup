@@ -1,4 +1,5 @@
-Paste into console console terminal. Creates a personality folder, a settings folder, a installed models folder and a launcher, all are linked and work together.
+Just Paste into console console terminal. 
+Creates a personality folder, a settings folder, a installed models folder and a launcher, all are linked and work together.
 Go into config and paste a link to the hugging face model you want.
 
 The script handles all dependencies and builds everything you need.
@@ -13,7 +14,7 @@ The script handles all dependencies and builds everything you need.
 ## First Launch
 
 1. Open `Llama/llama-config.txt`
-2. Paste a HuggingFace URL after `CURRENT_MODEL`
+2. Paste a HuggingFace GGUF model URL after `CURRENT_MODEL`
 3. Double-click `Launch-Llama.desktop` to start
 4. Model downloads on first launch, then runs offline
 
