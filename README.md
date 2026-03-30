@@ -32,9 +32,9 @@ The config file automatically updates with a list of all installed models for ea
 * **MIN_P** – Min-P sampling
 * **SEED** – Random seed (-1 = random each run)
 * **REASONING_BUDGET** – For reasoning models only. 0 = thinking disabled. 1+ sets token budget for reasoning steps.
-* **EMOJI_ALLOW** – `true` allows emojis. `false` restricts output to ASCII only (blocks emojis).
 * **FLASH_ATTN** – Flash Attention (`true`/`false`/`auto`) for faster inference and lower memory use
 * **MLOCK** – Lock model in RAM (`true`/`false`) to prevent swapping to disk
+* * **EMOJI_ALLOW** – `true` allows emojis. `false` restricts output to ASCII only (blocks emojis).
 
 ### AI Personality
 Edit `Desktop/Llama/personality.txt` to customize the system prompt.
