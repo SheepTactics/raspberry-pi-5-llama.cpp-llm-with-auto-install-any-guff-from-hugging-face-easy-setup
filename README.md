@@ -21,20 +21,20 @@ The config file automatically updates with a list of all installed models for ea
 
 ### Easy txt Settings
 
-* **THREADS** – CPU threads to use (4 is safe for Pi 5, try 3 to leave headroom)
-* **TEMP** – Temperature (0.0–2.0, lower = more focused, higher = more creative)
-* **CONTEXT** – Context window size in tokens (4096 is comfortable on Pi 5)
-* **MAX_TOKENS** – Maximum tokens to generate (-1 = no limit)
-* **BATCH_SIZE** – Prompt processing batch size (higher = faster, more RAM)
-* **REPEAT_PENALTY** – Repetition penalty (1.0 = off, 1.1+ to reduce loops)
-* **TOP_K** – Top-K sampling
-* **TOP_P** – Top-P (nucleus) sampling
-* **MIN_P** – Min-P sampling
-* **SEED** – Random seed (-1 = random each run)
-* **REASONING_BUDGET** – For reasoning models only. 0 = thinking disabled. 1+ sets token budget for reasoning steps.
-* **FLASH_ATTN** – Flash Attention (`true`/`false`/`auto`) for faster inference and lower memory use
-* **MLOCK** – Lock model in RAM (`true`/`false`) to prevent swapping to disk
-* **EMOJI_ALLOW** – `true` allows emojis. `false` restricts output to ASCII only (blocks emojis).
+* **THREADS**          * CPU threads
+* **TEMP**             * Temperature
+* **CONTEXT**          * Context window size in tokens
+* **MAX_TOKENS**       * Maximum tokens to generate (-1 = no limit)
+* **BATCH_SIZE**       * Prompt processing batch size
+* **REPEAT_PENALTY**   * Repetition penalty
+* **TOP_K**            * Top-K sampling
+* **TOP_P**            * Top-P (nucleus) sampling
+* **MIN_P**            * Min-P sampling
+* **SEED**             * Random seed (-1 = random each run)
+* **REASONING_BUDGET** * Max allowed reasoning for reasoning models (0 = off)
+* **FLASH_ATTN**       * Flash Attention for faster inference and lower memory use
+* **MLOCK**            * Lock model in RAM
+* **EMOJI_ALLOW**      * Allow or restrict emojis by forcing ASCII
 
 ### AI Personality
 Edit `Desktop/Llama/personality.txt` to customize the system prompt.
